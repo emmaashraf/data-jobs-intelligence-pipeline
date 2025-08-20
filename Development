@@ -1,0 +1,13 @@
+data-jobs-intelligence-pipeline/
+├── dags/                              # Airflow DAGs
+│   └── comprehensive_data_jobs_pipeline.py
+├── data/                              # Scraped data storage
+├── reports/                           # Generated reports
+│   └── charts/                        # Email chart images
+├── production_pipeline.py             # Main pipeline
+├── enhanced_email_pipeline.py         # Email reporting
+├── streamlit_dashboard.py            # Interactive dashboard
+├── requirements.txt                   # Python dependencies
+├── docker-compose.yaml              # Airflow setup
+├── .env.example                      # Environment template
+└── README.md                         # This file
